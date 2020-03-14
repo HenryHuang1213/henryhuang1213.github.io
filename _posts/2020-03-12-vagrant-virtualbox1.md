@@ -9,11 +9,11 @@ tags: Vagrant VirtualBox
 
 ***通过浏览器下载，本地添加box方式解决。（亲测不到五分钟）***
 
-## 首先，进入vagrant官网 [https://www.vagrantup.com/](https://www.vagrantup.com/)
+首先，进入vagrant官网 [https://www.vagrantup.com/](https://www.vagrantup.com/)
 
 ![pic1][picture1]
 
-## 然后，点击findbox【寻找box】，找到自己需要的box [https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)
+然后，点击findbox【寻找box】，找到自己需要的box [https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)
 
 ![pic2][picture2]
 
@@ -21,9 +21,11 @@ tags: Vagrant VirtualBox
 
 ![pic3][picture3]
 
-## 然后，这里选择currently released version， 不要选择前面个人发布版本。直接点击版本号 v1905.1 。[https://app.vagrantup.com/centos/boxes/7/versions/1905.1](https://app.vagrantup.com/centos/boxes/7/versions/1905.1)
+然后，这里选择currently released version， 不要选择前面个人发布版本。直接点击版本号 v1905.1 。[https://app.vagrantup.com/centos/boxes/7/versions/1905.1](https://app.vagrantup.com/centos/boxes/7/versions/1905.1)
 
-## 最关键的一步，直接拼接URL。在这里我们只需要直接在url后面加上 
+## 最关键的一步，直接拼接URL。
+
+在这里我们只需要直接在url后面加上 
 
 ```
 /providers/{供应商名字}.box
@@ -33,7 +35,7 @@ tags: Vagrant VirtualBox
 
 即可直接开始下载。
 
-## 下载完成后，命令行打开下载文件所在的文件夹目录（Windows机直接在文件夹导航栏输入cmd即可） / 或直接复制下载文件所在文件夹目录。
+#### 下载完成后，命令行打开下载文件所在的文件夹目录（Windows机直接在文件夹导航栏输入cmd即可） / 或直接复制下载文件所在文件夹目录。
 
 输入指令
 
