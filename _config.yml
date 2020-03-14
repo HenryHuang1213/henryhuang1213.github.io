@@ -59,7 +59,6 @@ sns:
   weibo: '//weibo.com/u/2082739005'
   instagram: '//www.instagram.com/henryhuang142857'
   github: '//github.com/henryhuang1213'
-  moqizhai: '//moqizhai.com'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
