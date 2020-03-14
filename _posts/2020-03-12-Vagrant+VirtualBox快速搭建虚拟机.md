@@ -5,7 +5,9 @@ subtitle: '解决Vagrant 安装VirtualBox等虚拟机镜像.box下载缓慢问�
 date: 2020.3.12
 author: HenryHuang
 cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
-tags: Vagrant VirtualBox
+tags:
+    - vagrant
+    - virtualbox
 ---
 
 ***通过浏览器下载，本地添加box方式解决。（亲测不到五分钟）***
