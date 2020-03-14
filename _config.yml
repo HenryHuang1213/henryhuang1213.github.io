@@ -3,7 +3,6 @@ title: 'HenryHuang 的博客'
 description: '云计算，分布式数据库，计算机爱好者。擅长Python, Java, Javascript等。'
 keyword: 'HenryHuang, HenryHuang的博客, 云计算, 分布式, python, javascript, nodejs'
 url: '' # your host
-relative_url: 'www.moqizhai.com'
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
 # 在服务器上建站时，如果你不需要子域名，请将这一格留空
