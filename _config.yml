@@ -26,8 +26,7 @@ footer:
 # Author 配置博主信息
 author: 'HenryHuang'
 nickname: '墨起诩'
-bio: '后端开发者
-个人开发网站：www.moqizhai.com'
+bio: '后端开发者'
 avatar: '/assets/img/profile.png'
 
 # Search
@@ -60,6 +59,7 @@ sns:
   weibo: '//weibo.com/u/2082739005'
   instagram: '//www.instagram.com/henryhuang142857'
   github: '//github.com/henryhuang1213'
+  moqizhai: '//moqizhai.com'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
