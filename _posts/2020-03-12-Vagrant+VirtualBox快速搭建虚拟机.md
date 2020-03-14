@@ -4,7 +4,7 @@ title: 'Vagrant + VirtualBox 快速搭建虚拟机'
 subtitle: '解决Vagrant 安装VirtualBox等虚拟机镜像.box下载缓慢问题'
 date: 2020.3.12
 author: HenryHuang
-cover: 'https://raw.githubusercontent.com/HenryHuang1213/picture_warehouse/master/vagrant1.jpg'
+cover: 'https://raw.githubusercontent.com/HenryHuang1213/picture_warehouse/master/vagrant.jpg'
 tags:
     - vagrant
     - virtualbox

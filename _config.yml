@@ -59,6 +59,8 @@ sns:
   weibo: '//weibo.com/u/2082739005'
   instagram: '//www.instagram.com/henryhuang142857'
   github: '//github.com/henryhuang1213'
+  jianshu: '//www.jianshu.com/u/12979860c300'
+  email: 'henryhuang1213@gmail.com'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
