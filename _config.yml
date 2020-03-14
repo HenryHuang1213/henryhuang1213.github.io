@@ -60,7 +60,6 @@ sns:
   weibo: '//weibo.com/u/2082739005'
   instagram: '//www.instagram.com/henryhuang142857'
   github: '//github.com/henryhuang1213'
-  facebook: '//www.facebook.com/profile.php?id=100007744864911'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
