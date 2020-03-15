@@ -4,7 +4,6 @@ title: '快速创建Linux下Docker环境的三种方式'
 subtitle: 'Vagrant + VirtualBox  VS  docker-machine'
 date: 2020.3.14
 author: HenryHuang
-cover: 'https://raw.githubusercontent.com/HenryHuang1213/picture_warehouse/master/vagrant.png'
 tags:
     - vagrant
     - virtualbox
