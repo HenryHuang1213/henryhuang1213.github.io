@@ -13,13 +13,16 @@ tags:
 
 这里给大家介绍三种方法。
 
-*** 我们分别用操作时间（完成步骤所需时间）和系统可延展性（虚拟机内操作其他安装包）两个标准来衡量。 ***
+***我们分别用操作时间（完成步骤所需时间）和系统可延展性（虚拟机内操作其他安装包）两个标准来衡量。***
 
-## [一、通过VirtualBox或者Vmware等虚拟化软件直接创建Linux虚拟机后，在虚拟机内安装Docker环境。](#jump1) 【操作时间：较长，系统可延展性：强】
+## [一、通过VirtualBox或者Vmware等虚拟化软件直接创建Linux虚拟机后，在虚拟机内安装Docker环境。](#jump1) 
+#### 【操作时间：较长，系统可延展性：强】
 
-## [二、通过Vagrant + VirtualBox快速创建Linux虚拟机+Docker环境（Docker Host）。](#jump2) 【操作时间：较短，系统可延展性：强】
+## [二、通过Vagrant + VirtualBox快速创建Linux虚拟机+Docker环境（Docker Host）。](#jump2) 
+#### 【操作时间：较短，系统可延展性：强】
 
-## [三、通过docker-machine快速打键Docker host。](#jump3) 【操作时间：较短，系统可延展性：弱】
+## [三、通过docker-machine快速打键Docker host。](#jump3) 
+#### 【操作时间：较短，系统可延展性：弱】
 
 -----
 
