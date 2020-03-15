@@ -153,11 +153,12 @@ Mac 与 Windows 在此处操作几乎相同，除有显著区别的地方之外�
       - 选择“性能”
       - 查看CPU界面右下角“**虚拟化：**”是否显示“已开启”
       - 如果没有，则：
+
 > 1、重启电脑，在主板显示画面，快速寻找进入BIOS的按键。根据品牌不同，可能是F2、Del或其他键。
-2、进入BIOS后，寻找进入“System Configuration”。
-3、找到“Virtualization Technology”，按Enter回车键。
-4、选择“Enabled”，按Enter回车键。
-5、然后保存重启即可。
+> 2、进入BIOS后，寻找进入“System Configuration”。
+> 3、找到“Virtualization Technology”，按Enter回车键。
+> 4、选择“Enabled”，按Enter回车键。
+> 5、然后保存重启即可。
 
 2. 下载docker-machine：
 
