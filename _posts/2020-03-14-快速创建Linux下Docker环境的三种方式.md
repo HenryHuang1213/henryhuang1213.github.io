@@ -50,7 +50,7 @@ Mac 与 Windows 在此处操作几乎相同，除有显著区别的地方之外�
 
 ## <span id="jump2">方法二：</span>
 
-## 二、通过Vagrant + VirtualBox快速创建Linux虚拟机+Docker环境（Docker Host）
+## 通过Vagrant + VirtualBox快速创建Linux虚拟机+Docker环境（Docker Host）
 
 1. 直接去官网下载VirtualBox：[VirtualBox官网下载](https://www.virtualbox.org/wiki/Downloads)
 
@@ -133,7 +133,7 @@ Mac 与 Windows 在此处操作几乎相同，除有显著区别的地方之外�
 
 ## <span id="jump3">方法三：</span>
 
-## 三、通过docker-machine快速打键Docker host。
+## 通过docker-machine快速打键Docker host。
 
 1. 前序步骤：
 
