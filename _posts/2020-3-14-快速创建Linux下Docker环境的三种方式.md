@@ -58,76 +58,76 @@ Mac 与 Windows 在此处操作几乎相同，除有显著区别的地方之外�
 
 3. 新建空白文件夹。在该文件夹目录下打开命令行，执行命令:
 
-```
-vagrant init <Linux虚拟机名 \ .box包名>
-```
+   ```
+   vagrant init <Linux虚拟机名 \ .box包名>
+   ```
 
-比如我需要创建一个Centos7的虚拟机，我就输入
+   比如我需要创建一个Centos7的虚拟机，我就输入
 
-```
-vagrant init centos/7
-```
+   ```
+   vagrant init centos/7
+   ```
 
 4. 这时候当前文件目录下会出现一个 Vagrantfile 文件。 **配置 Vagrantfile 文件。**
 
-使用编辑器打开，在结尾处：
+   使用编辑器打开，在结尾处：
 
-```
-  # config.vm.provision "shell", inline: <<-SHELL
-  #   apt-get update
-  #   apt-get install -y apache2
-  # SHELL
-end
-```
+   ```
+     # config.vm.provision "shell", inline: <<-SHELL
+     #   apt-get update
+     #   apt-get install -y apache2
+     # SHELL
+   end
+   ```
 
-取消注释（删除 # 号）。并加入Docker文档配置代码。根据自己不同的Linux虚拟机点击相应链接查看文档：
+   取消注释（删除 # 号）。并加入Docker文档配置代码。根据自己不同的Linux虚拟机点击相应链接查看文档：
 
-   - [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
-   - [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
-   - [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
-   - [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+     - [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/)
+     - [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
+     - [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
+     - [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-我这里使用centos7，于是将结尾代码改为：
+   我这里使用centos7，于是将结尾代码改为：
 
-```
-  config.vm.provision "shell", inline: <<-SHELL
-    apt-get update
-    sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
-    sudo yum install -y yum-utils device-mapper-persistent-data lvm2
-    sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-    sudo yum install docker-ce docker-ce-cli containerd.io
-    sudo systemctl start docker
-  SHELL
-end
-```
+   ```
+     config.vm.provision "shell", inline: <<-SHELL
+       apt-get update
+       sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
+       sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+       sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+       sudo yum install docker-ce docker-ce-cli containerd.io
+       sudo systemctl start docker
+     SHELL
+   end
+   ```
 
 5. 运行Vagrant。此处有两种方法：
 
    1. 直接运行：
 
-   ```
-   vagrant up
-   ```
+      ```
+      vagrant up
+      ```
 
-   vagrant会自动去抓取需要的.box镜像文件，速度会比较慢，时间会稍微有点长。
+      vagrant会自动去抓取需要的.box镜像文件，速度会比较慢，时间会稍微有点长。
 
    2. 通过浏览器下载，本地添加box方式解决。
 
-   详细步骤请移步我的另一篇文章，里面有详尽介绍 ——> [Vagrant 安装VirtualBox等虚拟机镜像.box下载缓慢问题](http://henryhuang1213.com/2020/03/12/Vagrant+VirtualBox%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA.html)
+      详细步骤请移步我的另一篇文章，里面有详尽介绍 ——> [Vagrant 安装VirtualBox等虚拟机镜像.box下载缓慢问题](http://henryhuang1213.com/2020/03/12/Vagrant+VirtualBox%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA.html)
 
 6. 此时，可以打开virtuabox会发现已经成功创建一台新的虚拟机。进入虚拟机，查看docker是否完成安装。
 
-当前文件目录下：
+   当前文件目录下：
 
-```
-vagrant ssh
-```
+   ```
+   vagrant ssh
+   ```
 
-进入虚拟机后，检查docker是否完成安装：
+   进入虚拟机后，检查docker是否完成安装：
 
-```
-docker version
-```
+   ```
+   docker version
+   ```
 
 -----
 
