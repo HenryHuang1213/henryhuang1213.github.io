@@ -238,7 +238,7 @@ Certbot可以有效帮助你管理证书，并自动帮你更新。最优解决�
     证书文件包括：
 
     - test.xxxx.com.cer: 这是服务器证书，也就是你的域名证书
-    - ctest.xxxx.com.key: 这是你的私钥
+    - test.xxxx.com.key: 这是你的私钥
     - ca.cer: 这是中间证书
     - fullchain.cer: 这是完整链证书（包含服务器证书和中间证书）
 
